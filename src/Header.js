@@ -21,6 +21,7 @@ function Header({ darkMode, setDarkMode }) {
           <a href="#services">SERVICES</a>
           <a href="#process">PROCESS</a>
           <a href="#projects">PROJECTS</a>
+          <a href="#blog">BLOGS</a> {/* ✅ Added this */}
           <a
             href="https://www.webdevsoft.com/verify.html"
             target="_blank"
@@ -44,6 +45,7 @@ function Header({ darkMode, setDarkMode }) {
             <li><a href="#services" onClick={toggleMenu}>Services</a></li>
             <li><a href="#process" onClick={toggleMenu}>Process</a></li>
             <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="#blog" onClick={toggleMenu}>Blogs</a></li> {/* ✅ Added this */}
             <li>
               <a
                 href="https://www.webdevsoft.com/verify.html"
@@ -63,25 +65,13 @@ function Header({ darkMode, setDarkMode }) {
 
             <h4>Follow Us</h4>
             <div className="social-icons">
-              <a
-                href="https://www.facebook.com/WebDevsoft/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.facebook.com/WebDevsoft/" target="_blank" rel="noopener noreferrer">
                 <img src="/facebook.png" alt="Facebook" />
               </a>
-              <a
-                href="https://www.instagram.com/webdevsoftit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.instagram.com/webdevsoftit" target="_blank" rel="noopener noreferrer">
                 <img src="/instagram.png" alt="Instagram" />
               </a>
-              <a
-                href="https://www.linkedin.com/company/webdevsoft-it/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.linkedin.com/company/webdevsoft-it/" target="_blank" rel="noopener noreferrer">
                 <img src="/linkedin.jpg" alt="LinkedIn" />
               </a>
             </div>
